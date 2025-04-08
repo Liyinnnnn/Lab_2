@@ -1,0 +1,48 @@
+table, th {
+    border-collapse: collapse;
+    padding-inline: 8px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+tr:nth-child(even) {
+    border-collapse: collapse;
+    padding-inline: 8px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    background-color: lightyellow;
+}
+
+tr:nth-child(odd) {
+    border-collapse: collapse;
+    padding-inline: 8px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    background-color: peachpuff;
+}
+
+td {
+    border-collapse: collapse;
+    padding-inline: 8px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    color: darkblue;
+}
+
+.peachpuff {
+    border-collapse: collapse;
+    padding-inline: 8px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    color: black;
+    background-color: peachpuff;
+}
+
+.lightyellow {
+    border-collapse: collapse;
+    padding-inline: 8px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    color: black;
+    background-color: lightyellow;
+}
