@@ -7,6 +7,63 @@
     <link rel="stylesheet" href="task_2.css">
 </head>
 <body>
-    
+    <form>
+        <h1>Conference Registration Form</h1>
+
+        <label for="name">Full Name:</label><br>
+        <input type="text" name="name" id="name" placeholder="Enter your full name">
+
+        <br><br>
+
+        <label for="email">Email Address:</label><br>
+        <input type="email" name="email" id="email" placeholder="Enter your email address">
+
+        <br><br>
+
+        <label for="age">Age:</label><br>
+        <input type="number" name="age" id="age" placeholder="22" min="18" max="99">
+
+        <br><br>
+
+        <label for="gender">Gender:</label><br>
+        <input type="radio" name="gender" id="male" value="Male">Male<br>
+        <input type="radio" name="gender" id="female" value="Female">Female
+
+        <br><br>
+
+        <label for="country">Country of Residence:</label><br>
+        <select>
+            <option value="Malaysia">Malaysia</option>
+            <option value="Singapore">Singapore</option>
+            <option value="Indonesia">Indonesia</option>
+            <option value="China">China</option>
+            <option value="Vietnam">Vietnam</option>
+        </select>
+
+        <br><br>
+
+        <label for="interest">Area of Interest:</label><br>
+        <input type="checkbox" name="interest" id="software" value="Software Development">Software Development<br>
+        <input type="checkbox" name="interest" id="ds" value="Data Science">Data Science<br>
+        <input type="checkbox" name="interest" id="cybersecurity" value="Cybersecurity">Cybersecurity<br>
+        <input type="checkbox" name="interest" id="ai" value="Artificial Intelligence">Artificial Intelligence
+
+        <br><br>
+
+        <label for="experience">Experience Level:</label><br>
+        <input type="radio" name="experience" id="beginner" value="Beginner">Beginner<br>
+        <input type="radio" name="experience" id="intermediate" value="Intermediate">Intermediate<br>
+        <input type="radio" name="experience" id="advance" value="Advanced">Advanced
+
+        <br><br>
+
+        <label for="comments">Comments or Questions:</label><br>
+        <textarea name="comments" id="comments" placeholder="Any comments or questions?" rows="4" cols="50"></textarea>
+
+        <br><br>
+
+        <input type="submit" class="button" value="Submit"></input>
+        <input type="reset" class="button" value="Reset"></input>
+    </form>
 </body>
 </html>
